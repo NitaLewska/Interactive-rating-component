@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  --very_dark_blue: hsl(216, 12%, 8%);
+  background-color: var(--very_dark_blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
